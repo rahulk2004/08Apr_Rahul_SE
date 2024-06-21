@@ -13,7 +13,7 @@ class RPSgame{
     int round;
 		
     //constructor
-    RPSgame() {
+    RPSgame(){
         //function for genrate random number
         srand(time(0));
     }
