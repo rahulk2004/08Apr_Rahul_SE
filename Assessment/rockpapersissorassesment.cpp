@@ -41,9 +41,10 @@ class RPSgame{
         cin>>totalrounds;
     }
 	public:
+	int rounds;
     //play rounds
     void playrounds(){
-        for(int round=1;round<=totalrounds;round++){
+        for(round=1;round<=totalrounds;round++){
         	
             cout<<"\n*--*--*--*--*--*--*--*--*--*--*--*--*--*"<<endl;
             cout<<"                 GAME"<<endl;
