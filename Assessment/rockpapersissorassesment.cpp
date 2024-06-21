@@ -10,6 +10,7 @@ class RPSgame{
     int totalrounds;
     int playerscore;
     int computerscore;
+    int round;
 		
     //constructor
     RPSgame() {
@@ -41,7 +42,6 @@ class RPSgame{
         cin>>totalrounds;
     }
 	public:
-	int rounds;
     //play rounds
     void playrounds(){
         for(round=1;round<=totalrounds;round++){
