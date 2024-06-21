@@ -7,10 +7,7 @@ class RPSgame{
 	
 	public:
 	string playername;
-    int totalrounds;
-    int playerscore;
-    int computerscore;
-    int round;
+    int totalrounds,playerscore,computerscore,round;
 		
     //constructor
     RPSgame(){
